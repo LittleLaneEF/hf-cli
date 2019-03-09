@@ -2,12 +2,12 @@
 
 > 基于 github 、gitlab、gitee 代码仓库模板的项目初始化脚手架工具
 
-![@lane/hf-cli](https://img.shields.io/badge/npm-v0.0.1-brightgreen.svg)
+![@littlelane/hf-cli](https://img.shields.io/badge/npm-v0.0.1-brightgreen.svg)
 
 ## 安装
 
 ```bash
-$ npm install @lane/hf-cli -g
+$ npm install @littlelane/hf-cli -g
 ```
 
 ## 命令
