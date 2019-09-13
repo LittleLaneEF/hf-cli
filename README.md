@@ -1,31 +1,31 @@
 # hf-cli
 
-> 基于 github 、gitlab、gitee 代码仓库模板的项目初始化脚手架工具
+> Project initialization scaffolding tool based on github, gitlab, gitee code repository templates
 
 ![@littlelane/hf-cli](https://img.shields.io/badge/npm-v0.0.1-brightgreen.svg)
 
-## 安装
+## Install
 
 ```bash
 $ npm install @littlelane/hf-cli -g
 ```
 
-## 命令
+## Commands
 
-### hf add 或者 hf -a
+### `hf add` OR `hf -a`
 
-用于将项目模板的信息进行保存和管理，为之后项目的初始化提供模板依据。
+It is used to save and manage the information of the project template, and provide template basis for the initialization of the project.
 
-在执行 hf add 命令后，会提示输入模板名字、模板代码所在的 github 仓库、对应的分支和模板的描述信息。
+After executing the `hf add` command, you will be prompted to enter the template name, the github repository where the template code is located, the corresponding branch and template description.
 
-### hf list 或者 hf -l
+### `hf list` OR `hf -l`
 
-用于查看已有被管理着的所有的模板信息，以 table 的形式进行展示。
+Used to view all the template information that has been managed, and display it in the form of `table`.
 
-### hf init 或者 hf -i
+### `hf init` OR `hf -i`
 
-初始化项目的模板代码。
+Initialize the template code for the project.
 
-### hf delete 或者 hf -d
+### `hf delete` OR `hf -d`
 
-根据输入的模板名称将已有管理的模板进行删除处理，主要用户删除无用的模板信息。
+The existing managed template is deleted according to the input template name, and the main user deletes the useless template information.

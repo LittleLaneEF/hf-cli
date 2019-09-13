@@ -1,9 +1,9 @@
 {
   "name": "@littlelane/hf-cli",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "description": "Project initialization scaffolding tool based on github, gitlab, gitee code repository templates",
   "author": "littleLane",
   "license": "MIT",
-  "description": "",
   "keywords": [
     "cli",
     "hf",
@@ -20,6 +20,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleLaneEF/hf-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LittleLaneEF/hf-cli/issues"
+  },
+  "homepage": "https://github.com/LittleLaneEF/hf-cli#readme",
   "bin": {
     "hf": "./bin/hf.js"
   },
